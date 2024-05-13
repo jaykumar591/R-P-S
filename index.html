@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R P S Game</title>
+    <link rel="icon" href="./image/paper.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors game</h1>
+    <div class="choices">
+      <button class="choice" id="rock">
+        <h2>ROCK</h2>
+      </button>
+      <button class="choice" id="paper">
+        <h2>PAPER</h2>
+      </button>
+      <button class="choice" id="scissors">
+        <h2>SCISSORS</h2>
+      </button>
+    </div>
+
+    <div class="scoreBoard">
+      <div class="score">
+        <p id="userScore">0</p>
+        <p id="name">You</p>
+      </div>
+      Vs
+      <div class="score">
+        <p id="score">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+
+    <div class="msgCotainer">
+      <button onclick="play()"> 
+        <p id="msg">PLAY</p>
+      </button>
+    </div>
+    <div class="smsc">
+      <p id="sms">Result</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
