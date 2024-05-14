@@ -1,5 +1,5 @@
 function play() {
-  let name = prompt("Enter your name:","Ayush");
+  let name = prompt("Enter your name:","Jay");
   document.querySelector("#name").innerHTML = name;
   document.querySelector("#msg").innerHTML='Play again';
 
