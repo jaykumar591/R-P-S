@@ -103,8 +103,7 @@ tl.from("#sms",{
   duration:0.5
 })
 tl.from("body",{
-  backgroundColor:"#f87b",
-  x:200,
+  backgroundColor:"#f87b",
   ease:"bounce.in",
   y:-50,
   duration:2
@@ -115,3 +114,4 @@ tl.to("body",{
   duration:0.5,
   ease:"bounce.in"
 })
+
